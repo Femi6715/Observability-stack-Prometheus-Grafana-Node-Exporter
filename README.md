@@ -1,12 +1,19 @@
-# compose-prometheus-grafana
 
-Monitoring stack using Docker Compose: **Prometheus**, **Node Exporter**, **Grafana**, with a basic alert rule.
+---
 
-## Run
+## 📊 **6️⃣ compose-prometheus-grafana**
+```markdown
+# Monitoring Stack: Prometheus + Grafana + Node Exporter
 
+This project sets up a complete **monitoring and observability stack** using **Docker Compose**:
+- **Prometheus** (metrics collection)
+- **Node Exporter** (system metrics)
+- **Grafana** (visualization dashboard)
+
+Includes a sample **alert rule** for high CPU usage.
+
+---
+
+## 🚀 Quick Start
 ```bash
 docker compose up -d
-# Prometheus: http://localhost:9090
-# Node Exporter metrics: http://localhost:9100/metrics
-# Grafana (admin/admin): http://localhost:3000
-```
