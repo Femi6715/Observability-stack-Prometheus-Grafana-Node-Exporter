@@ -17,3 +17,5 @@ Includes a sample **alert rule** for high CPU usage.
 ## 🚀 Quick Start
 ```bash
 docker compose up -d
+
+
